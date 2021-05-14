@@ -11,14 +11,14 @@ from flask import Flask,request,redirect
 
 #以下按需更改
 password="123456"#后台管理的密码
-url_host= ""
+url_host= "https://1261157123412750.cn-hangzhou.fc.aliyuncs.com/2016-08-15/proxy/OneDrive/OneDrive/"
 #http触发器的接口url
 
 
-access_key=''#云账号的AccessKey
-access_key_secret=''#云账号AccessKey的密码
-oss_end_point= 'http://oss-cn-shanghai-internal.aliyuncs.com'#访问对象存储的endpoint
-oss_bucket_name=''#可以使用的对象存储桶名称
+access_key='LTAI5tGCZphwcouZ7W9fy7nf'#云账号的AccessKey
+access_key_secret='div94GW7Ac1QA8QIOo47ST1gsgODxH'#云账号AccessKey的密码
+oss_end_point= 'https://1261157123412750.cn-hangzhou-internal.fc.aliyuncs.com'#访问对象存储的endpoint
+oss_bucket_name='OneDrive'#可以使用的对象存储桶名称
 
 #以下可以不修改
 path_oss_store= "oneindex-serverless"#在存储桶中创建的文件夹名称
