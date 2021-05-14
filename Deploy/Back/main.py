@@ -15,9 +15,9 @@ url_host= "https://1261157123412750.cn-hangzhou.fc.aliyuncs.com/2016-08-15/proxy
 #http触发器的接口url
 
 
-access_key='LTAI5tGCZphwcouZ7W9fy7nf'#云账号的AccessKey
-access_key_secret='div94GW7Ac1QA8QIOo47ST1gsgODxH'#云账号AccessKey的密码
-oss_end_point= 'https://1261157123412750.cn-hangzhou-internal.fc.aliyuncs.com'#访问对象存储的endpoint
+access_key=''#云账号的AccessKey
+access_key_secret=''#云账号AccessKey的密码
+oss_end_point= ''#访问对象存储的endpoint
 oss_bucket_name='OneDrive'#可以使用的对象存储桶名称
 
 #以下可以不修改
